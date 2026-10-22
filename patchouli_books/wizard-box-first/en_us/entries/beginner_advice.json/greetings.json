@@ -1,0 +1,66 @@
+{
+    "name": "Greetings",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:beginner_advice",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Picking up this Not Suspicious At All(tm) book from the ground where it mysteriously appeared was not at all a bad decision. In fact, I congratulate you for such bravery! ... $(2br)First advice: be a little bit less trusting of random books, books here are quite powerfull and dangerous, so are most $(italic)Artifacts$()"
+        },
+	{
+	    "type": "patchouli:text",
+	    "text": "I have compiled a series of book on which I recorded my wisdom acquired along my long journey and studies called the archmage series, containing important and vital advices, challenges and general knowledge of this world. This is the first of the series, Starting For Wizards, if you are not (yet) a wizard, mage, spellcaster, magic user of kinds do not worry"
+	},
+	{
+	    "type": "patchouli:text",
+	    "text": "after reading through this book you will most surely possess the basis for which begin your pratice and study of Magic, and if you are well acquainted with magic this book will satiate doubts related to the culture and arcane of this region."
+	},
+	{
+	    "type": "patchouli:text",
+	    "text": "These parts have developed some interesting forms of magic, such as psionic energy manipulation with spell formed from hexes, magical machinery powered from firey energy from the deep earth, druid earth mana manipulation and flower grafting, spirit harvesting and manipulation, flesh grafting for living machinery, typical spell book casting, typical bullet casting, and a particular immoral and evil craft"
+	},
+	{
+	    "type": "patchouli:text",
+	    "text": "Of course, some of these arts are particularly dubious and may be avoided for obvious reasons, I, as a researcher, have dabbed in all the arts and wrote books on advice for all of them and can assure you will not be held back by not studying a certain Magic school, you will, however, be rewarded without a doubt from studying Magic, regardless of which you pick or from choosing all of them, there is no replacing a Magic school"
+	},
+	{
+	    "type": "patchouli:text",
+	    "text": "Next on, I will make recommendations on books to acquire from my fellow researchers and diaries for yourself, again, choose whatever fancies you"
+	},
+	{
+	    "type": "patchouli:crafting",
+	    "title": "For botanists",
+	    "recipe": "botania:lexicon",
+	    "text": "Popular pick, may be found in old stuctures."
+	},
+	{
+	    "type": "patchouli:crafting",
+	    "title": "For Psychics",
+	    "recipe": "hexcasting:patchi_book",
+	    "text": "Should be with you already."
+	},
+	{
+	    "type": "patchouli:crafting",
+	    "title": "For Dwarves",
+	    "recipe": "embers:ancient_codex",
+	    "text": "First find an underground structure containing a ancient golem ... and slay it."
+	},
+	{
+	    "type": "patchouli:crafting",
+	    "title": "For Reapers",
+	    "recipe": "malum:encyclopedia_arcana",
+	    "text": "Very underrated"
+	},
+	{
+	    "type": "patchouli:crafting",
+	    "title": "For Villans",
+	    "recipe": "evilcraft:crafting/darkened_apple",
+	    "text": "No, the apple isn't the book, if, for whatever reason, this is the path you desire to walk, feed it to poor animal and throw a book at the anomaly"
+	},
+	{
+	    "type": "patchouli:text",
+	    "title":"Necromancy but alive",
+	    "text": "A book was not written by the pioneers of this craft, instead, rely on a short book by me as a starter guide."
+	}
+    ]
+}

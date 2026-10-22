@@ -1,6 +1,6 @@
 {
-    "name": "My First Book!",
-    "landing_text": "Welcome to Patchouli",
+    "name": "Starting for Wizards",
+    "landing_text": "I welcome you, traveler from afar",
     "version": 1,
     "creative_tab": "minecraft:tools_and_utilities",
     "use_resource_pack": true
