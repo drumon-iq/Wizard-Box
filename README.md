@@ -1,2 +1,3 @@
-# Spell-Grade-Gardening
-1.20.1 Forge modpack
+# Wizard Box
+
+Enjoy magical contraptions in an simple and relaxed modpack
