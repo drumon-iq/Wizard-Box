@@ -1,0 +1,23 @@
+{
+    "name": "Loot",
+    "icon": "minecraft:chest",
+    "category": "patchouli:beginner_advice",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The landscape is loaded with fallen and abandoned structures (abandoned enough anyways), use that in your favor!$(br)Within the towers you will find underground mazes, packed with loot and monsters (really packed, I mean it).$(br)You will also find inhabited villages, camps, houses and mage towers, you can mostly borrow things from them scot free,"
+        },
+        {
+            "type": "patchouli:text",
+            "text": " but beware the mage towers, they will bat an eye.$(br)There are also islands in the skies spread around that contains decent loot and materials"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Exploration of dungeon towers is especially profitable at the beginning of your journey, it will net you important and hard to get materials such as slimeballs, enderpearls, diamonds and other monster loot. All those materials are quite useful in the practice of Magic."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Also, taking from Over$(k)World$() abandoned houses and villager houses (of which you will need permission beforehand, they have consciousness as well you know, it was proven through magical experiments ... don't ask about the experiments) can give enough food to get by the hardest first weeks, ensuring you won't starve."
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "name": "Greetings",
-    "icon": "minecraft:writable_book",
+    "icon": "minecraft:paper",
     "category": "patchouli:beginner_advice",
     "pages": [
         {
@@ -9,7 +9,7 @@
         },
 	{
 	    "type": "patchouli:text",
-	    "text": "I have compiled a series of book on which I recorded my wisdom acquired along my long journey and studies called the archmage series, containing important and vital advices, challenges and general knowledge of this world. This is the first of the series, Starting For Wizards, if you are not (yet) a wizard, mage, spellcaster, magic user of kinds do not worry"
+	    "text": "I have compiled a series of book on which I recorded my wisdom acquired along my long journey and studies called the archmage series, containing important and vital advices, challenges and general knowledge of this world. This is the first of the series, Starting For Wizards, if you are not (yet) a wizard, mage, spellcaster, magic user of some kind, do not worry"
 	},
 	{
 	    "type": "patchouli:text",
@@ -17,7 +17,7 @@
 	},
 	{
 	    "type": "patchouli:text",
-	    "text": "These parts have developed some interesting forms of magic, such as psionic energy manipulation with spell formed from hexes, magical machinery powered from firey energy from the deep earth, druid earth mana manipulation and flower grafting, spirit harvesting and manipulation, flesh grafting for living machinery, typical spell book casting, typical bullet casting, and a particular immoral and evil craft"
+	    "text": "These parts have developed some interesting forms of magic, such as psionic energy manipulation with spells formed from hexes, magical machinery powered from firey energy from the deep earth, druid earth mana manipulation and flower grafting, spirit harvesting and manipulation, flesh grafting for living machinery, typical spell book casting, typical bullet casting, and a particular immoral and evil craft"
 	},
 	{
 	    "type": "patchouli:text",

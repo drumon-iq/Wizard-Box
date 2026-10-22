@@ -1,0 +1,35 @@
+{
+    "name": "Survival for a Wizard",
+    "icon": "minecraft:iron_sword",
+    "category": "patchouli:beginner_advice",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Some brushes with monsters and enemies might make you rethink your strategies, I will recommend the following items which may aid in your battles and why:$(li)Vengeance Ring$()$(li)Waterpipe Shotgun$()$(li)A Shield$()$(li)Custom SMG$()"
+        },
+	{
+	    "type": "patchouli:text",
+	    "title": "Vengeance Ring",
+	    "text": "Grants invisibility while active allowing for stealth, it does attract aggressive spirits and entices them to attach you, use a burning gemstone to remedy that"
+	},
+	{
+	    "type": "patchouli:text",
+	    "title": "Waterpipe Shotgun",
+	    "text": "Projectile type spell casting device, deals a massive blow up close and even at moderate distances, perfect to get rid of nasty situations"
+	},
+	{
+	    "type": "patchouli:text",
+	    "title": "Shield",
+	    "text": "A obvious one, you can obtain them in large quantities in dungeon towers"
+	},
+	{
+	    "type": "patchouli:text",
+	    "title": "Custom SMG",
+	    "text": "Projectile type spell casting device, more well suited for dealing with mobs of enemies"
+	},
+        {
+            "type": "patchouli:text",
+            "text": "There are also some more expensive but well worth items that can be made but delving into the Magic Schools. I am particularly fond of a well Enchanted SoulStained Scythe alongside the some acessories, it ends up being more powerful than a blast of bullets surprisingly, and while botanists enjoy their Terra blade it is a bit too expensive for my taste"
+        }
+    ]
+}

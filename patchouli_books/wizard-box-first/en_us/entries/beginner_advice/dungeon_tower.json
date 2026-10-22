@@ -1,0 +1,15 @@
+{
+    "name": "Dungeon Towers",
+    "icon": "minecraft:cobblestone",
+    "category": "patchouli:beginner_advice",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "These maze dungeons have a trick to them, very well know to adventurers, most mobs comes from mob spawners, disable them and you can walk around safely, I $(n)highly$() recommend not breaking the spawners, they are so incredibly useful when paired with the most basic bog standard automation. Just a few torches will do, I guarantee."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Before you explore, it's good to setup a small storage area with chests and have a stack or two of torches at least, given the size and amount of loot chests inside these dungeons you inventory won't have enough space"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Rifts and lost doors",
+    "icon": "minecraft:oak_door",
+    "category": "patchouli:beginner_advice",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "If you find, during exploration, a lonely door without a house, a weird cut in reality, a wall made of the very fabric of reality, beware, for it leads to a another dimension, a pocket dimension of darkness."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "These 'dimensional doors' were built by ancient wizards, now left behind, were used as experimentation laboratories, secret rooms, private spaces for parties among other things, and will most likely contain traps at every step (as you should expect from partying wizards).$(2br) Dying in this dimension won't even grant you death, it will instead 'sink' you into the $(o)Limbo$(), it's best left undescribed."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Rifts must be stabilized with a door (any door will do) or with a rift stabilizer.$(2br)You can create these doors for your own use and amusement, also, using rift signatures it is possible to 'drill a hole through the fabric of space time' and connect two or more points together, making an easy and cheap transportation system. Note this will only create the rifts, you still need to place the doors at the rifts"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Creating a iron dimensional door however is completely different, and will instead create a rift to a pocket dimension, note that closing this rift will forever erase your pocket dimension (unless you dabble in the arts of administration)"
+        },
+	{
+	    "type": "patchouli:crafting",
+	    "recipe": "dimdoors:rift_signature",
+	    "text": "Binds 2 locations through a rift, use any door to stabilize the rifts"
+	},
+	{
+	    "type": "patchouli:crafting",
+	    "recipe": "dimdoors:rift_remover",
+	    "text": "Closes a rift"
+	},
+	{
+	    "type": "patchouli:crafting",
+	    "recipe": "dimdoors:rift_stabilizer",
+	    "text": "Stops the growth and destruction caused by an unstable rift"
+	},
+	{
+	    "type": "patchouli:crafting",
+	    "recipe": "dimdoors:stabilized_rift_signature",
+	    "text": "Makes several connections to one place, a multi version of the rift signature"
+	},
+	{
+	    "type": "patchouli:crafting",
+	    "recipe": "dimdoors:iron_dimensional_door",
+	    "text": "A door to a empty pocket dimension"
+	}
+    ]
+}
