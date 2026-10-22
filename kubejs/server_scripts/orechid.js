@@ -5,6 +5,7 @@ ServerEvents.recipes(event => {
     event.recipes.botania.orechid('jeg:brimstone_ore', 'minecraft:dripstone_block', 10);
     event.recipes.botania.orechid_ignem('jeg:blackstone_brimstone_ore', 'minecraft:blackstone', 1000);
     event.recipes.botania.orechid_ignem('jeg:basalt_brimstone_ore', 'minecraft:basalt', 1000);
+
     event.recipes.botania.orechid('evilcraft:dark_ore', 'minecraft:stone', 4000);
     event.recipes.botania.orechid('evilcraft:dark_ore_deepslate', 'minecraft:deepslate', 80);
 
@@ -18,8 +19,6 @@ ServerEvents.recipes(event => {
     event.recipes.botania.orechid('aether:ambrosium_ore', 'aether:holystone', 1000);
     event.recipes.botania.orechid('aether:zanite_ore', 'aether:holystone', 1000);
     event.recipes.botania.orechid('aether:gravitite_ore', 'aether:holystone', 1000);
-
-    event.recipes.botania.orechid('aether_redux:veridium_ore', 'aether:holystone', 1000);
 
     event.recipes.botania.orechid('undergarden:depthrock_coal_ore', 'undergarden:depthrock', 1000);
     event.recipes.botania.orechid('undergarden:shiverstone_coal_ore', 'undergarden:shiverstone', 1000);

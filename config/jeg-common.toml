@@ -57,6 +57,25 @@
 		#The max Resonance level Guns apply!
 		#Range: 1 ~ 10
 		maxResonanceLevel = 4
+		#GUNNER MOBS NEED TO BE ENABLED! If enabled, Supply Drops will be randomly called.
+		supplyDrops = true
+		#Fixed Supply Drop interval in days. Set to 0 to use a random interval instead.
+		#Range: 0 ~ 30
+		supplyDropIntervalDays = 5
+		#Minimum random interval in ticks if supplyDropIntervalDays is 0.
+		#Range: > 1
+		supplyDropRandomIntervalMinTicks = 12000
+		#Maximum random interval in ticks if supplyDropIntervalDays is 0.
+		#Range: > 1
+		supplyDropRandomIntervalMaxTicks = 24000
+		#Minimum number of in-game days before Supply Drops can be sent.
+		#Range: 0 ~ 30
+		minimumDaysForDrops = 5
+		#If enabled, Harvesting Tools will break non-harvestable blocks.
+		harvestingToolsBreakBlocks = true
+		#The JackHammer's chance to dupe resources.
+		#Range: 0.0 ~ 1.0
+		jackHammerReturnChance = 0.7
 
 		#Properties related to gun griefing
 		[common.gameplay.griefing]
@@ -76,7 +95,7 @@
 			#The base chance that a wooden block is broken when impacted by a bullet. The hardness of a block will scale this value; the harder the block, the lower the final calculated chance will be.
 			#Range: 0.0 ~ 1.0
 			woodBaseBreakChance = 0.1
-			#The base chance that a wooden block is broken when impacted by a bullet. The hardness of a block will scale this value; the harder the block, the lower the final calculated chance will be.
+			#The base chance that a stone block is broken when impacted by a bullet. The hardness of a block will scale this value; the harder the block, the lower the final calculated chance will be.
 			#Range: 0.0 ~ 1.0
 			stoneBaseBreakChance = 0.05
 			#If true, allows fire guns to light and spread fires on blocks
@@ -94,13 +113,13 @@
 		#If enabled, boss enchanments will only be granted if their requirements are met
 		bossRequirements = true
 		#If disabled, Boos will not generate.
-		booSpawning = true
+		booSpawning = false
 		#If disabled, Ghouls will not generate.
-		ghoulSpawning = true
+		ghoulSpawning = false
 		#If disabled, Trumpet Skeletons will not generate.
 		trumpetSpawning = true
 		#If enabled, Creepers have a 5% chance of dropping a live grenade.
-		creepersDropLiveGrenades = true
+		creepersDropLiveGrenades = false
 		#If enabled, all entities killed by SOME guns, have a chance to drop the Gun's Ammo.
 		entitiesDropEchoShards = true
 		#The volume for Player Gunfire. Default is 8
@@ -113,18 +132,18 @@
 	#Faction and Gun Configuration
 	[common.gunner_config]
 		#If enabled, mobs inside the Factions config will have a chance to spawn with guns.
-		gunnerMobSpawning = true
+		gunnerMobSpawning = false
 		#If enabled, Raids will have a chance to spawn explosive mobs/mobs with explosive charges.
-		explosiveMobs = true
+		explosiveMobs = false
 		#If enabled, mobs with guns will have a chance to drop ammo for the gun they are using.
 		dropAmmo = true
 		#If enabled, mobs will have a chance to spawn as Elites.
-		eliteSpawning = true
+		eliteSpawning = false
 		#The chance for Elite Gunners to spawn, 1.0 is always, 0.0 is never.
 		#Range: 0.1 ~ 1.0
 		eliteChance = 0.3
 		#If enabled, Elite Gunners have a chance to spawn riding Horses.
-		horsemen = true
+		horsemen = false
 		#The in-game day where mobs will start spawning, and the spawn chance will increase every day after. 0 is the world-creation day.
 		#Range: 0 ~ 100
 		minimunDays = 4
@@ -144,7 +163,7 @@
 		#If enabled, Phantom Gunners will have a chance to replace Phantoms AFTER defeating the Terror Phantom.
 		phantomGunnersReplacePhantoms = true
 		#If enabled, Factions inside the config will have the same chance to spawn like Pillager Patrols.
-		gunnerMobPatrols = true
+		gunnerMobPatrols = false
 		#Fixed patrol interval in days. Set to 0 to use a random interval instead.
 		#Range: 0 ~ 30
 		patrolIntervalDays = 5
@@ -158,9 +177,9 @@
 		#Range: 0 ~ 30
 		minimumDaysForPatrols = 5
 		#If enabled, Factions inside the config will have the same chance to start Raids naturally.
-		gunnerMobRaids = true
+		gunnerMobRaids = false
 		#If enabled, Factions will spawn additional Mobs for support.
-		raidSupportMobs = true
+		raidSupportMobs = false
 		#Fixed Raid interval in days. Set to 0 to use a random interval instead.
 		#Range: 0 ~ 100
 		raidIntervalDays = 30
@@ -175,6 +194,15 @@
 		minimumDaysForRaids = 15
 		#Define factions, their mobs, and gun pools. Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,longGun2...|eliteGun1,eliteGun2...
 		factions = ["night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun", "the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle", "nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle", "bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2", "hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2", "lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg,jeg:assault_rifle,jeg:semi_auto_rifle|jeg:blossom_rifle,jeg:service_rifle,jeg:infantry_rifle"]
+		#The chance for Gunners to drop their guns, 1.0 is always, 0.0 is never.
+		#Range: 0.0 ~ 1.0
+		chanceToDropGun = 0.085
+		#If enabled, an exploding grenade will inflict Blindness for 3 seconds to really nearby entities.
+		grenadesInflictBlindness = true
+		#If enabled, riding a weaponized mob will paint entities as glowing entities if the user has Night Vision.
+		allowVehicleEntityMarkers = true
+		#If enabled, shooting or throwing a Terror Armada Flare will start the Terror Phantom event.
+		terrorPhantomEvent = true
 
 	#Properties relating to network
 	[common.network]
@@ -199,7 +227,7 @@
 	#Properties relating to mob fleeing and aggroing!
 	[common.fleeing_mobs]
 		#If true, nearby mobs will flee from the firing of guns.
-		enabled = true
+		enabled = false
 		#Any mobs within a sphere of this radius will flee from the shooter of an unsilenced gun.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		unsilencedRange = 50.0
