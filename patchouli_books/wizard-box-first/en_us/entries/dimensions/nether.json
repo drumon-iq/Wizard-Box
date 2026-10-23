@@ -1,0 +1,23 @@
+{
+    "name": "Nether",
+    "icon": "minecraft:netherrack",
+    "category": "patchouli:dimensions",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A popular pick for summer vacation. A fiery hellish and sometimes alien landscape contain interesting structures guarded by rather powerful creatures. Botanists usually make use of fire resistance potions and a fire nullification necklace (which comes in two versions, being one of them rather expensive). Common tourist spots include:"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The Nether Fortress, an ancient fortress which bravely resisted time, packed full of goodies and it's charred, burned remains of guards.$(2br)Bastions, ancient bastions protected by the very much alive piglins, also packed with goodies but considered far more challenging than the fortress, mortal enemies of the nether fortress inhabitants by the way."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Obsidian pillars, casters of hexes have an easy time collecting large amounts of obsidian from these pillars.$(2br)Warped forests, the creepiest and by far safest regions.$(2br)The Roof, methods for getting to the Roof remain undisclosed, it is said to be the perfect place for contraptions for some reason."
+        },
+	{
+	    "type": "patchouli:text",
+	    "text":"It is said there is the resting place of souls, I don't see much rest there personally."
+	}
+    ]
+}

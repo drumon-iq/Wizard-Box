@@ -1,0 +1,15 @@
+{
+    "name": "The End",
+    "icon": "minecraft:ender_eye",
+    "category": "patchouli:dimensions",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Home to the only dragon left, this is a post dragons world and for a good reason. It is full of weird and alien biomes and structures, flight and teleportation are a expect method of traversal there, given the floating islands, both trivial for more experienced hex casters and botanists. The air is important for recipes, so are the fruits that grow there, "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "you may also find the elytra, a set of wings that are mostly useless for hex wizards as they can simply conjure their own"
+        }
+    ]
+}

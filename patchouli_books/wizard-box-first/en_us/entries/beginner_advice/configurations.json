@@ -1,0 +1,11 @@
+{
+    "name": "Relevant configurations",
+    "icon": "minecraft:iron_nugget",
+    "category": "patchouli:beginner_advice",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This region has been tainted by the presence of modifiers, such as [Global Gamerules] and [More MobGriefing options], and creepers here do not destroy blocks upon explosion, this, however, makes villagers too lazy to pickup crops or farm, if you are an [ADMINISTRATOR] you can make villagers exempt from the rules of [MobGriefing] using [More MobGriefing Options]"
+        }
+    ]
+}

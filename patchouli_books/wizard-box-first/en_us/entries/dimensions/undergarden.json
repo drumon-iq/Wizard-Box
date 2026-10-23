@@ -1,0 +1,11 @@
+{
+    "name": "Undergarden",
+    "icon": "minecraft:stone_bricks",
+    "category": "patchouli:dimensions",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Deep below the bedrock lies the Undergarden, a wet, dim and smelly place."
+        }
+    ]
+}

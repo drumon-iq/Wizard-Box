@@ -1,0 +1,23 @@
+{
+    "name": "Exploration",
+    "icon": "minecraft:compass",
+    "category": "patchouli:dimensions",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "It is a fairly common pratice for wizards to dimension hop in search for otherworldly materials and extraterrestrial entities, but that isn't strictly necessary anymore, with sufficiently advanced magical machinery it is possible to synthesize at home these materials and avoid a trip to these dangerous and alien places."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Materials such as blaze rods, quartz, enderpearls, nether wart, netherrack, endstone, ender air, chorus fruit and soul sand can all be made through the means of Magic, worth noting it does require a bit of setup and is sometimes made with the most evil of pratices, but the only limit are your morals."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "One should still be interested in other dimensions for they offer a bit more than special grade materials, their dungeons and structures usually contain quite the powerful loot, and it's generally agreed it's far more pratical to actually just explore these dimensions. Usually, those who prefer not to got to these dimensions is due to an inconvienent time, or are focused on a task and changing from it seems harder than to just power through, in any case, the choice is yours."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Through the craft of the specials compasses finding your way around is trivial, just remember to mark your portal on a map."
+        }
+    ]
+}

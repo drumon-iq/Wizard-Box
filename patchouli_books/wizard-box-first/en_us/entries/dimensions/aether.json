@@ -1,0 +1,11 @@
+{
+    "name": "Aether",
+    "icon": "minecraft:glowstone",
+    "category": "patchouli:dimensions",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Far above the clouds rests the dimension of sky, the hostile paradise, there is no better place to hone your swords skills than with the Valkyrians."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Exploratin",
+    "icon": "minecraft:compass",
+    "category": "patchouli:beginner_advice",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Exploration is far easier when aided by instruments, maps and  compasses. A piece of advice: it is far cheaper to buy maps from villagers than to make your own."
+        },
+        {
+            "type": "patchouli:text",
+	    "title": "Atlas",
+            "text": "Stiching maps together and storing them in a book is far more convienent than carrying several map scrolls with you."
+        },
+        {
+            "type": "patchouli:text",
+	    "title": "Nature's Compass",
+            "text": "Can be tuned to point to a specific biome"
+        },
+        {
+            "type": "patchouli:text",
+	    "title": "Explorer's Compass",
+            "text": "Can be tuned to point to a specific structure, the structure has to existed for a suficient time and will not work on things built by you as they are too recent"
+        }
+    ]
+}
